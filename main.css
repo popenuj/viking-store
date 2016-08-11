@@ -57,7 +57,7 @@ table {
 }
 .container {
   margin: 0 left;
-  width: 960px;
+  width: 100%;
 }
 
 /*
@@ -137,13 +137,17 @@ body {
   border-top: 2px solid #000;
   position: relative;
   overflow: hidden;
+  line-height: 500px;
 }
 .banner h1 {
+  float: left;
+  width: 100%;
   font-weight: bold;
   color: #000;
-  padding: 180px 340px;
   position: relative;
+  text-align: center;
   z-index: 1;
+  vertical-align: middle;
   font-size: 64px;
 }
 .banner img {
@@ -154,13 +158,6 @@ body {
   height: 100%;
   opacity: 0.4;
 }
-
-/*
-  ========================================
-  Banner
-  ========================================
-*/
-
 .tag {
   line-height: 60px;
   background-color: #333;
@@ -169,12 +166,81 @@ body {
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
   font-size: 24px;
+  letter-spacing: .15em;
 }
 
+/*
+  ========================================
+  Items List
+  ========================================
+*/
 
+.item-tagline {
+  font-size: 20px;
+  color: #333;
+  font-weight: 300px;
+  line-height: 30px;
+  border-bottom: 1px solid #333;
+  text-align: center;
+}
+.product {
+  width: 310px;
+  height: 275px;
+  float: left;
+  margin: 0 8px 28px 0;
+  text-align: center;
+}
+.title {
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 42px;
+  background-color: #333;
+}
+.image {
+  text-align: center;
+  position: relative;
+  background-color: #999;
+  padding: 3px 0;
+}
+.image img {
+  max-height: 200px;
+  max-width: 300px;
+}
+.price {
+  padding: 2px;
+  text-align: right;
+  background-color: #fff;
+  position: absolute;
+    right: 10px;
+    top: 7px;
+  border: 1px solid #000;
+}
+.product:last-child {
+margin: 0 0 28px 0;
+}
+.item-foot {
+  padding: 4px;
+  line-height: 35px;
+  background-color: #333;
+}
+.btn {
+  padding: 3px 10px;
+  background-color: #f6b26b;
+  border: 1px solid #333;
+  box-shadow: 2px 2px;
+}
+.btn:focus {
+  outline: none;
+}
+.left-gutter {
+  display: block;
+  margin: auto; 
+  text-align: center;
+}
 
-
-
-
-
+/*.left-gutter {
+  margin: 20px;
+}
+*/
 
