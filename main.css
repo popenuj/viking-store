@@ -234,13 +234,94 @@ margin: 0 0 28px 0;
   outline: none;
 }
 .left-gutter {
-  display: block;
-  margin: auto; 
-  text-align: center;
+  background-color: #fff;
+  margin: 20px;
+  float: left;
 }
 
-/*.left-gutter {
-  margin: 20px;
-}
+/*
+  ========================================
+  Pagination
+  ========================================
 */
+
+.nav-pane {  
+  float: left;
+  width: 100%;
+  padding: 10px;
+  margin-top: -20px;
+  background-color: #fff;
+}
+.center-nav {
+  margin-bottom: 30px;
+  float: right;
+  text-align: left;
+  width: 63%;
+}
+.pagination li {
+  margin: 0 5px;
+  float: left;
+  color: #1161b5;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+.two li {
+  float: left;
+  color: #000;
+  text-decoration: none;
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+
+.contact {
+  float: left;
+  width: 100%;
+  background-color: #333;
+  line-height: 40px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.contact-head {
+  font-size: 16px;
+  color: #fe9800;
+  text-align: center;
+  width: 100%;
+}
+.phone {
+  text-align: center;
+  width: 100%;
+  line-height: 40px;
+  margin-top: 5px;
+}
+.phone img {
+  width: 20px;
+}
+.email {
+  text-align: center;
+  margin: -10px 0 20px 0;
+}
+.email img {
+  display: inline-block;
+  width: 20px;
+}
+.contact-type {
+  color: #fff;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
 
